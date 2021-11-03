@@ -1,0 +1,25 @@
+{
+  "name": "fe-doy-cli",
+  "version": "1.0.1",
+  "description": "copy dir to server by ssh",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "fe": "bin/cli.js"
+  },
+  "keywords": [
+    "deploy",
+    "ssh",
+    "copy",
+    "auto deploy"
+  ],
+  "author": "anstxy.vi@outlook.com",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "fs-extra": "^10.0.0",
+    "ssh-pool": "^5.3.0",
+    "tasuku": "^1.0.2"
+  }
+}
