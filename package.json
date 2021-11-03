@@ -1,6 +1,6 @@
 {
   "name": "fe-doy-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "copy dir to server by ssh",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -8,12 +8,19 @@
   "bin": {
     "fe": "bin/cli.js"
   },
+  "bugs": {
+    "url": "https://github.com/anstxy-vi/fe-depoy-cli/issues"
+  },
   "keywords": [
     "deploy",
     "ssh",
     "copy",
     "auto deploy"
   ],
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/anstxy-vi/fe-depoy-cli"
+  },
   "author": "anstxy.vi@outlook.com",
   "license": "MIT",
   "dependencies": {
