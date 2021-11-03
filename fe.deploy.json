@@ -1,13 +1,7 @@
 {
   "dirToCopy": "dist",
   "deployTo": "~",
-  "repositoryUrl": "http://gitlab.ziguangcn.com/vmm/vm_mask_site.git",
-  "ignores": [
-    ".git",
-    "node_modules"
-  ],
-  "only": "master",
+  "repositoryUrl": "",
   "key": "",
-  "server": "",
-  "scripts": []
+  "server": ""
 }
